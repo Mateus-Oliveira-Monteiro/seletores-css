@@ -1,0 +1,79 @@
+body{
+    background-color: #f4f4f4;
+}
+
+#main-header{
+    background-color: #333;
+}
+
+#main-header h1{
+    color: #f4f4f4;
+}
+.menu a{
+    color: #ffcfcf
+}
+
+.menu a:visited{
+    color: #892c96;
+}
+
+.menu a:hover{
+    text-decoration: line-through; 
+    color: aqua;
+}
+
+section{
+    margin: 20px;
+    padding: 15px;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.section-info{
+    background-color: #ffcfcf;
+}
+
+#about .list-item{
+    color: #555;
+}
+
+#about .list-item:nth-child(3) {
+    color: aqua;
+    text-decoration: dashed;
+}
+
+#contact input{
+    border:1px solid #ddd;
+}
+
+#name:focus,#email:focus, textarea:focus {
+    border: 2px solid #00aaff;
+    outline: none;
+}
+
+input[type="submit"]{
+    background-color: #007bff;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    background-color: #0a2f57;
+    color: white;
+}
+
+footer{
+    background-color: #222;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    padding-top: 10px;
+}
+
+h2::before {
+    content: "★";
+    color: rgb(56, 209, 236);          
+    margin-right: 5px;     
+}
